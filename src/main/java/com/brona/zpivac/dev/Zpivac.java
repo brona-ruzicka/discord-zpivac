@@ -29,6 +29,8 @@ public class Zpivac {
 
         listenForCommands(client, properties.getProperty("prefix"));
 
+        // registerCommands(client);
+
         client.onDisconnect().block();
     }
 
