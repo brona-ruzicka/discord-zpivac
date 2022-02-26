@@ -21,7 +21,7 @@ import reactor.util.annotation.Nullable;
  * methods. If it evaluates, that the supplied {@link Event} is a command, it creates a wrapper object,
  * a child of {@link CommandEvent}. </p>
  *
- * <p>The {@code EventMapper} will produce a {@link CommandEvent} if:</p>
+ * <p>The {@code CommandEventMapper} will produce a {@link CommandEvent} if:</p>
  * <ul>
  *     <li>The event is an instance of {@link ApplicationCommandInteractionEvent}.</li>
  *     <li>The event is an instance of {@link MessageCreateEvent} and the associated
